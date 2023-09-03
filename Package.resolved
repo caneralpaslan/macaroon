@@ -1,0 +1,50 @@
+{
+  "pins" : [
+    {
+      "identity" : "anyformatkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/luximetr/AnyFormatKit.git",
+      "state" : {
+        "revision" : "ae3a965164005b07f81d6aa066520d7ad14ea54e",
+        "version" : "2.5.2"
+      }
+    },
+    {
+      "identity" : "kingfisher",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/onevcat/Kingfisher.git",
+      "state" : {
+        "revision" : "1a0c2df04b31ed7aa318354f3583faea24f006fc",
+        "version" : "5.15.8"
+      }
+    },
+    {
+      "identity" : "macaw",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/exyte/macaw.git",
+      "state" : {
+        "revision" : "29ec199cbc9c814f8ceffc1a33b8775b7349dcdd",
+        "version" : "0.9.10"
+      }
+    },
+    {
+      "identity" : "snapkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SnapKit/SnapKit.git",
+      "state" : {
+        "revision" : "f222cbdf325885926566172f6f5f06af95473158",
+        "version" : "5.6.0"
+      }
+    },
+    {
+      "identity" : "swxmlhash",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/drmohundro/SWXMLHash",
+      "state" : {
+        "revision" : "6469881a3f30417c5bb02404ea4b69207f297592",
+        "version" : "6.0.0"
+      }
+    }
+  ],
+  "version" : 2
+}
