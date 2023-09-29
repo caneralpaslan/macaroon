@@ -10,7 +10,7 @@ extension Array where Element == ImageProcessor {
         forEach { anImageProcessor in
             imageProcessor =
                 imageProcessor.unwrap(
-                    { $0 >> anImageProcessor },
+                    { $0.append(another: $0) },
                     or: anImageProcessor
                 )
         }

@@ -43,7 +43,7 @@ extension UIImage {
                 targetSize: size?.scaled(scale),
                 roundingCorners: corners
             )
-        return processor.process(item: .image(self), options: [])
+        return processor.process(item: .image(self), options: KingfisherParsedOptionsInfo(nil))
     }
 
     public func resized(
@@ -66,10 +66,7 @@ extension UIImage {
 
         let processor = ResizingImageProcessor(referenceSize: size, mode: mode)
 
-        return processor.process(
-            item: .image(self),
-            options: []
-        )
+        return processor.process(item: .image(self), options: KingfisherParsedOptionsInfo(nil))
     }
 
     public func downsampled(
@@ -91,10 +88,7 @@ extension UIImage {
 
         let processor = DownsamplingImageProcessor(size: size)
 
-        return processor.process(
-            item: .image(self),
-            options: []
-        )
+        return processor.process(item: .image(self), options: KingfisherParsedOptionsInfo(nil))
     }
 
     public func cropped(
@@ -117,10 +111,7 @@ extension UIImage {
 
         let processor = CroppingImageProcessor(size: size , anchor: anchor)
 
-        return processor.process(
-            item: .image(self),
-            options: []
-        )
+        return processor.process(item: .image(self), options: KingfisherParsedOptionsInfo(nil))
     }
 }
 
